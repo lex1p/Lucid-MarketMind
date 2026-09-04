@@ -169,7 +169,7 @@
 <script>
   (function() {
     // ---------- GROQ CONFIG ----------
-    const GROQ_API_KEY = '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'; 
+    const GROQ_API_KEY = process.env.GROQ_API_KEY; 
     // if not set, prompt once (but we have it hardcoded for demo)
     if (!GROQ_API_KEY) {
       alert('Please set your Groq API key in the code (GROQ_API_KEY variable)');
